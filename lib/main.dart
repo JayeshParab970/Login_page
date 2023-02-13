@@ -44,7 +44,8 @@ class _LoginPageState extends State<LoginPage> {
                     SizedBox(height: 15,),
                     TextField(
                       decoration: InputDecoration(
-                        hintText: "Username",
+                        prefixIcon: Icon(Icons.email,color: Colors.lightBlueAccent),
+                        hintText: "E-mail",
 
                       ),
                     ),
@@ -53,6 +54,7 @@ class _LoginPageState extends State<LoginPage> {
                       obscureText: hide,
                       decoration: InputDecoration(
                           hintText: "Password",
+                          prefixIcon: Icon(Icons.password,color: Colors.lightBlueAccent),
                           suffixIcon:IconButton(onPressed:(){setState(() {
                             hide= !hide;
                           });
