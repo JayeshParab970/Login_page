@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                     SizedBox(height: 15,),
                     TextField(
                       decoration: InputDecoration(
-                        hintText: "E-mail",
+                        hintText: "Username",
 
                       ),
                     ),
