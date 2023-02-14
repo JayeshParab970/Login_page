@@ -42,6 +42,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     TextField(
                       decoration: InputDecoration(
                         hintText: "E-mail",
+                        prefixIcon: Icon(Icons.email,color: Colors.lightBlueAccent),
 
                       ),
                     ),
@@ -51,6 +52,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       obscureText: hide,
                       decoration: InputDecoration(
                           hintText: "Password",
+                          prefixIcon: Icon(Icons.password,color: Colors.lightBlueAccent),
                           suffixIcon:IconButton(onPressed:(){setState(() {
                             hide= !hide;
                           });
@@ -63,7 +65,8 @@ class _SignUpPageState extends State<SignUpPage> {
                       controller: confirmPassword,
                       obscureText: hide,
                       decoration: InputDecoration(
-                          hintText: "Confirm Password",
+                          hintText: "Confirm Password"
+                          ,prefixIcon: Icon(Icons.password,color: Colors.lightBlueAccent),
                           suffixIcon:IconButton(onPressed:(){setState(() {
                             hide= !hide;
                           });
