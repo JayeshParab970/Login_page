@@ -20,7 +20,7 @@ class _SignUpPageState extends State<SignUpPage> {
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 90,left: 40),
-              child: Text("Create Your \nAccount",style: TextStyle(color: Colors.white,fontSize: 50,fontWeight: FontWeight.bold),),
+              child: Text("Create Your \nAccount / I'D.",style: TextStyle(color: Colors.white,fontSize: 50,fontWeight: FontWeight.bold),),
             ),
 
             SingleChildScrollView(
