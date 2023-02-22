@@ -19,7 +19,7 @@ class _SignUpPageState extends State<SignUpPage> {
         body:Stack(
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 70,left: 20),
+              padding: const EdgeInsets.only(top: 90,left: 40),
               child: Text("Create Your \nAccount / I'D.",style: TextStyle(color: Colors.white,fontSize: 50,fontWeight: FontWeight.bold),),
             ),
 
